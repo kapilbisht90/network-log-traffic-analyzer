@@ -1,6 +1,6 @@
 # Network Log Traffic Analyzer
 
-Professional Python CLI tool for analyzing network and firewall traffic logs.
+Network Log Traffic Analyzer — a Python CLI tool I wrote to make sense of firewall logs. Instead of manually scrolling through thousands of log entries, you can run this and instantly see: which IPs are sending the most traffic, which ports are being scanned or targeted, how many connections were allowed vs blocked, and detailed lists of denied traffic. Supports CSV, JSONL, and text log formats. I use it for quick security analysis and threat hunting. Outputs are in JSON and CSV so you can plug them into dashboards or SIEM tools.
 
 ## Quick Start
 
